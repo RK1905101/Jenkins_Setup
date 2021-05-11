@@ -4,6 +4,8 @@ You can refer this official document to install jenkins in your system: https://
 
 open your favourable linux system and update the packages installed in it
 
+and firstly check wether yum is configured or not(because using it after some time makes it un configured sometime so do check and if it is unconfigured
+then do check how to configure yum, above file consist of a document in which it has been shown how to configure yum)
 using the following command:
 
 **sudo dnf update -y --nobest**
@@ -32,3 +34,7 @@ Now run the following cmd
 
 
 **sudo yum install jenkins java-11-openjdk-devel**
+
+note: it'll take some time to install jenkins in your system
+![image](https://user-images.githubusercontent.com/64470404/117794035-768a8880-b26a-11eb-8cfe-a4d9367461de.png)
+
