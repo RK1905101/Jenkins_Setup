@@ -36,5 +36,6 @@ Now run the following cmd
 **sudo yum install jenkins java-11-openjdk-devel**
 
 note: it'll take some time to install jenkins in your system
-![image](https://user-images.githubusercontent.com/64470404/117794035-768a8880-b26a-11eb-8cfe-a4d9367461de.png)
+![image](https://user-images.githubusercontent.com/64470404/117795002-632bed00-b26b-11eb-936f-c60e71e8c9e9.png)
+
 
