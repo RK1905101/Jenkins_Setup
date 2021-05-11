@@ -17,11 +17,18 @@ now install wget command using the following command:
 
 ![image](https://user-images.githubusercontent.com/64470404/117784892-a5503100-b261-11eb-9b8f-3dfadef0ea79.png)
 
+
+Now run the following cmd
+
 **sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo**
+
 ![image](https://user-images.githubusercontent.com/64470404/117786268-f1e83c00-b262-11eb-99b8-0fb205b18014.png)
+
 
 **sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key**
 
+
 ![image](https://user-images.githubusercontent.com/64470404/117786403-15ab8200-b263-11eb-90fc-e57a57c34bcb.png)
+
 
 **sudo yum install jenkins java-11-openjdk-devel**
