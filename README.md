@@ -38,4 +38,54 @@ Now run the following cmd
 note: it'll take some time to install jenkins in your system
 ![image](https://user-images.githubusercontent.com/64470404/117795002-632bed00-b26b-11eb-936f-c60e71e8c9e9.png)
 
+Now check jenkins status usng command :
 
+**systemctl status jenkins**
+
+![image](https://user-images.githubusercontent.com/64470404/117845363-19a8c580-b29e-11eb-9076-8a5895cbd2f6.png)
+
+Now to start jenkins
+use the following command:
+**systemctl start jenkins**
+
+![image](https://user-images.githubusercontent.com/64470404/117845545-48bf3700-b29e-11eb-82d1-d5a93aa6f4c1.png)
+-----------
+to open jenkins...
+disable your firewall from the vm 
+and write your local host ip with port no. 8080 as url to open it..
+
+
+![image](https://user-images.githubusercontent.com/64470404/117847102-ae5ff300-b29f-11eb-91f3-a04091f3f170.png)
+
+
+and then the very next step is to find its password..
+so for that.. copy the path given there in the page..
+
+![image](https://user-images.githubusercontent.com/64470404/117847246-cc2d5800-b29f-11eb-9c0b-7d5506f6fe8d.png)
+
+
+and the next step is to paste that path in your linux..
+and write the following amd to show your password
+
+**sudo cat /var/lib/jenkins/secrets/initialAdminPassword**
+
+![image](https://user-images.githubusercontent.com/64470404/117847490-01d24100-b2a0-11eb-94bf-17ca2c6aed0e.png)
+
+
+![image](https://user-images.githubusercontent.com/64470404/117848176-a94f7380-b2a0-11eb-97b9-f82e19553333.png)
+
+click on install plugin
+
+![image](https://user-images.githubusercontent.com/64470404/117848686-25e25200-b2a1-11eb-8234-acefd026bdb5.png)
+
+
+And now create your username and set password according to you:
+
+![image](https://user-images.githubusercontent.com/64470404/117849946-74dcb700-b2a2-11eb-8ebe-0737cb5d96ad.png)
+
+![image](https://user-images.githubusercontent.com/64470404/117850160-ac4b6380-b2a2-11eb-8440-672d626a3157.png)
+
+
+
+AND THATS ALL
+THIS COMPLETES JENKINS SETUP... (❁´◡`❁)
